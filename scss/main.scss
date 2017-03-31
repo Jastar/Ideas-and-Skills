@@ -1,0 +1,216 @@
+﻿@mixin font ($size:null, $height:null, $family:null, $color:null) {
+	font-size: $size;
+	line-height: $height;
+	font-family: $family;
+	color: $color;
+}
+
+h1 {@include font(38px, 84px, "PlayBoldItalic", #171717)}
+h2 {@include font(24px, 84px, "PlayfBold", #171717)}
+h3 {@include font(14px, 84px, "WorkSansMedium", #171717)}
+
+
+.text-right {text-align: right}
+
+.text-left {text-align: left}
+
+.text-center {text-align: center}
+
+/********************************************* NAV *********************************************/
+
+	nav {
+		h1 {
+			font-family: "Notera";
+			margin: 20px auto
+		}
+
+		ul#navigation {
+			display: none;
+			padding: 0px;
+			margin: 53px auto;
+				li {
+					display: inline;
+					margin-right: 0px;
+						a {
+							text-decoration: none;
+							@include font(15px, 18px, "RevaliaRegular", #171717);
+							padding: 10px 15px;
+							-webkit-transition: background 1s, color 0.5s;
+							-o-transition: background 1s, color 0.5s;
+							transition: background 1s, color 0.5s;
+								&:hover {
+									border-radius: 2px;
+									background-color: #c07070;
+									color: #fff;
+								};
+						}
+				}
+		}
+
+		ul#navigationSm {
+			display: none;
+			padding: 0px;
+			margin: 50px auto 0px auto;
+			text-align: center;
+				li {
+					list-style-type: none;
+						a {
+							display: block;
+							text-decoration: none;
+							@include font(15px, 18px, "RevaliaRegular", #171717);
+							padding: 10px 15px;
+							-webkit-transition: background 1s, color 0.5s;
+							-o-transition: background 1s, color 0.5s;
+							transition: background 1s, color 0.5s;
+								&:hover {
+									border-radius: 2px;
+									background-color: #c07070;
+									color: #fff;
+								};
+						}
+				}
+		}
+
+
+
+
+
+
+		button#menu {
+			margin: 40px auto;
+			padding: 10px 10px;
+			background-color: transparent;
+			border: none;
+			outline: none;
+			color: #191919;
+			-webkit-transition: color 0.5s ease-in-out;
+			-o-transition: color 0.5s ease-in-out;
+			transition: color 0.5s ease-in-out;
+				&:hover {
+					color: #655e5e;
+				};
+				&:active {
+					-webkit-transform: translate(2px, 2px);
+					-ms-transform: translate(2px, 2px);
+					-o-transform: translate(2px, 2px);
+					transform: translate(2px, 2px);
+				};
+		}
+	}
+
+/********************************************* NAV *********************************************/
+
+
+
+/********************************************* HEADER *********************************************/
+	
+	header {
+		h1 {
+			margin: 0 auto;
+		}
+
+		h3 {
+			margin: 0 auto;
+		}
+
+		p {
+			margin: 0 auto 45px auto;
+		}
+	}
+
+/********************************************* HEADER *********************************************/
+
+
+
+/********************************************* SECTION#GALLERY *********************************************/
+	
+	section#gallery {
+		a {outline: none;}
+
+		div.container {
+			background: url("../images/galleryBg.gif");
+		}
+
+		img {
+			width: 100%;
+			height: auto;
+			margin: 15px auto;
+		}
+
+		div.autor {
+			text-align: center;
+
+
+				h3 {
+					line-height: 24px;
+				}
+		}
+
+		div.moreworks {
+			display: none;
+		}
+	}
+
+/********************************************* SECTION#GALLERY *********************************************/
+
+
+
+
+/********************************************* SECTION#MOREWORKS *********************************************/
+
+	section#moreWorks {
+			button#expandWork {
+				text-transform: uppercase;
+				@include font(14px, $family: "WorkSansMedium", $color: #1d1d1d);
+				margin: 45px auto;
+				border: none;
+				outline: none;
+				background-color: transparent;
+				-webkit-transition: color 0.5s ease-in-out;
+				-o-transition: color 0.5s ease-in-out;
+				transition: color 0.5s ease-in-out;
+					&:hover {
+						color: #858181;
+					};
+			}
+	}
+
+/********************************************* SECTION#MOREWORKS *********************************************/
+
+
+
+/********************************************* FOOTER *********************************************/
+
+	footer {
+		div.container-fluid {
+			background: linear-gradient(#222222, #0c0c0c);
+
+				ul#social {
+					padding: 0px;
+					margin: 50px auto 0px auto;
+						li {
+							display: inline;
+							list-style-type: none;
+							margin-right: 10px;
+								a {
+									color: #d3d3d3;
+									-webkit-transition: color 0.5s ease-in-out;
+									-o-transition: color 0.5s ease-in-out;
+									transition: color 0.5s ease-in-out;
+										&:hover {
+											color: #686666;
+										};
+								}
+						}
+				}
+
+				h3 {
+					font-family: "WorkSansRegular";
+					margin: 25px auto 50px auto;
+					line-height: 28px;
+					color: #d3d3d3;
+				}
+		}
+	}
+
+/********************************************* FOOTER *********************************************/

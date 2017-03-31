@@ -1,0 +1,155 @@
+h1 {
+  font-size: 38px;
+  line-height: 84px;
+  font-family: "PlayBoldItalic";
+  color: #171717; }
+
+h2 {
+  font-size: 24px;
+  line-height: 84px;
+  font-family: "PlayfBold";
+  color: #171717; }
+
+h3 {
+  font-size: 14px;
+  line-height: 84px;
+  font-family: "WorkSansMedium";
+  color: #171717; }
+
+.text-right {
+  text-align: right; }
+
+.text-left {
+  text-align: left; }
+
+.text-center {
+  text-align: center; }
+
+/********************************************* NAV *********************************************/
+nav h1 {
+  font-family: "Notera";
+  margin: 20px auto; }
+nav ul#navigation {
+  display: none;
+  padding: 0px;
+  margin: 53px auto; }
+  nav ul#navigation li {
+    display: inline;
+    margin-right: 0px; }
+    nav ul#navigation li a {
+      text-decoration: none;
+      font-size: 15px;
+      line-height: 18px;
+      font-family: "RevaliaRegular";
+      color: #171717;
+      padding: 10px 15px;
+      -webkit-transition: background 1s, color 0.5s;
+      transition: background 1s, color 0.5s; }
+      nav ul#navigation li a:hover {
+        border-radius: 2px;
+        background-color: #c07070;
+        color: #fff; }
+nav ul#navigationSm {
+  display: none;
+  padding: 0px;
+  margin: 50px auto 0px auto;
+  text-align: center; }
+  nav ul#navigationSm li {
+    list-style-type: none; }
+    nav ul#navigationSm li a {
+      display: block;
+      text-decoration: none;
+      font-size: 15px;
+      line-height: 18px;
+      font-family: "RevaliaRegular";
+      color: #171717;
+      padding: 10px 15px;
+      -webkit-transition: background 1s, color 0.5s;
+      transition: background 1s, color 0.5s; }
+      nav ul#navigationSm li a:hover {
+        border-radius: 2px;
+        background-color: #c07070;
+        color: #fff; }
+nav button#menu {
+  margin: 40px auto;
+  padding: 10px 10px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #191919;
+  -webkit-transition: color 0.5s ease-in-out;
+  transition: color 0.5s ease-in-out; }
+  nav button#menu:hover {
+    color: #655e5e; }
+  nav button#menu:active {
+    -webkit-transform: translate(2px, 2px);
+    -ms-transform: translate(2px, 2px);
+    transform: translate(2px, 2px); }
+
+/********************************************* NAV *********************************************/
+/********************************************* HEADER *********************************************/
+header h1 {
+  margin: 0 auto; }
+header h3 {
+  margin: 0 auto; }
+header p {
+  margin: 0 auto 45px auto; }
+
+/********************************************* HEADER *********************************************/
+/********************************************* SECTION#GALLERY *********************************************/
+section#gallery a {
+  outline: none; }
+section#gallery div.container {
+  background: url("../images/galleryBg.gif"); }
+section#gallery img {
+  width: 100%;
+  height: auto;
+  margin: 15px auto; }
+section#gallery div.autor {
+  text-align: center; }
+  section#gallery div.autor h3 {
+    line-height: 24px; }
+section#gallery div.moreworks {
+  display: none; }
+
+/********************************************* SECTION#GALLERY *********************************************/
+/********************************************* SECTION#MOREWORKS *********************************************/
+section#moreWorks button#expandWork {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "WorkSansMedium";
+  color: #1d1d1d;
+  margin: 45px auto;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  -webkit-transition: color 0.5s ease-in-out;
+  transition: color 0.5s ease-in-out; }
+  section#moreWorks button#expandWork:hover {
+    color: #858181; }
+
+/********************************************* SECTION#MOREWORKS *********************************************/
+/********************************************* FOOTER *********************************************/
+footer div.container-fluid {
+  background: -webkit-linear-gradient(#222222, #0c0c0c);
+  background: linear-gradient(#222222, #0c0c0c); }
+  footer div.container-fluid ul#social {
+    padding: 0px;
+    margin: 50px auto 0px auto; }
+    footer div.container-fluid ul#social li {
+      display: inline;
+      list-style-type: none;
+      margin-right: 10px; }
+      footer div.container-fluid ul#social li a {
+        color: #d3d3d3;
+        -webkit-transition: color 0.5s ease-in-out;
+        transition: color 0.5s ease-in-out; }
+        footer div.container-fluid ul#social li a:hover {
+          color: #686666; }
+  footer div.container-fluid h3 {
+    font-family: "WorkSansRegular";
+    margin: 25px auto 50px auto;
+    line-height: 28px;
+    color: #d3d3d3; }
+
+/********************************************* FOOTER *********************************************/

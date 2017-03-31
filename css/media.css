@@ -1,0 +1,29 @@
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+/* Small Devices, Tablets */
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  section#gallery div.autor h2 {
+    margin: 20px auto 0px auto; }
+  section#gallery div.autor h3 {
+    margin: 0 auto 50px auto;
+    line-height: 24px; } }
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  section#gallery div.autor h2 {
+    margin: 70px auto 0px auto; }
+  section#gallery div.autor h3 {
+    margin: 0 auto 50px auto;
+    line-height: 24px; } }
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  section#gallery div.autor h2 {
+    margin: 100px auto 0px auto; }
+  section#gallery div.autor h3 {
+    margin: 0 auto 72px auto; } }

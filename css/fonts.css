@@ -1,0 +1,60 @@
+/* font-family: "NoteraPersonalUseOnly"; */
+@font-face {
+	font-family: "Notera";
+	src: url("../fonts/NoteraPersonalUseOnly/Notera_PersonalUseOnly.eot");
+	src: url("../fonts/NoteraPersonalUseOnly/Notera_PersonalUseOnly.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/NoteraPersonalUseOnly/NoteraPersonalUseOnly.woff") format("woff"),
+	url("../fonts/NoteraPersonalUseOnly/NoteraPersonalUseOnly.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "PlayfairDisplayBold"; */
+@font-face {
+	font-family: "PlayBold";
+	src: url("../fonts/PlayfairDisplayBold/PlayfairDisplay-Bold.eot");
+	src: url("../fonts/PlayfairDisplayBold/PlayfairDisplay-Bold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/PlayfairDisplayBold/PlayfairDisplay-Bold.woff") format("woff"),
+	url("../fonts/PlayfairDisplayBold/PlayfairDisplay-Bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "PlayfairDisplayBoldItalic"; */
+@font-face {
+	font-family: "PlayBoldItalic";
+	src: url("../fonts/PlayfairDisplayBoldItalic/PlayfairDisplay-BoldItalic.eot");
+	src: url("../fonts/PlayfairDisplayBoldItalic/PlayfairDisplay-BoldItalic.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/PlayfairDisplayBoldItalic/PlayfairDisplay-BoldItalic.woff") format("woff"),
+	url("../fonts/PlayfairDisplayBoldItalic/PlayfairDisplay-BoldItalic.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "RevaliaRegular"; */
+@font-face {
+	font-family: "RevaliaRegular";
+	src: url("../fonts/RevaliaRegular/Revalia-Regular.eot");
+	src: url("../fonts/RevaliaRegular/Revalia-Regular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/RevaliaRegular/Revalia-Regular.woff") format("woff"),
+	url("../fonts/RevaliaRegular/Revalia-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "WorkSansMedium"; */
+@font-face {
+	font-family: "WorkSansMedium";
+	src: url("../fonts/WorkSansMedium/WorkSans-Medium.eot");
+	src: url("../fonts/WorkSansMedium/WorkSans-Medium.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/WorkSansMedium/WorkSans-Medium.woff") format("woff"),
+	url("../fonts/WorkSansMedium/WorkSans-Medium.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "WorkSansRegular"; */
+@font-face {
+	font-family: "WorkSansRegular";
+	src: url("../fonts/WorkSansRegular/WorkSans-Regular.eot");
+	src: url("../fonts/WorkSansRegular/WorkSans-Regular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/WorkSansRegular/WorkSans-Regular.woff") format("woff"),
+	url("../fonts/WorkSansRegular/WorkSans-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
